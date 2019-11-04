@@ -6,7 +6,7 @@ def anomaly_func(data):
 
     p_coun = []
     s_c_coun = []
-
+    print("Here")
     for row in data.iterrows():
         country_name = row[1][0]
         
@@ -27,14 +27,14 @@ def anomaly_func(data):
             
             if sign_now != sign:
                 f = 1
+            sign = sign_now
 
         if positive_epochs > 12:
             p_coun.append(country_name)
             
-        sign = sign_now
-    
-        if f:
+        if f and country_name not in p_coun:
             s_c_coun.append(country_name)
+    
 
     print(p_coun)
     print(s_c_coun)
@@ -42,10 +42,7 @@ def anomaly_func(data):
 if __name__ == "__main__":
     d = pd.read_csv('deforest_data.csv')
 
-    # print(d.head())
     year_range = ["Country Name"] + [str(u) for u in range(1990, 2017)]
     d_years = d[year_range]
-
-    print(d_years.head())
 
     anomaly_func(d_years)
