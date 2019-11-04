@@ -3,16 +3,24 @@ import pandas as pd
 
 def anomaly_func(data):
     # check for positive anomaly
-    print(data)
+
+    p_coun = []
     for row in data.iterrows():
         country_name = row[1][0]
         
         data_list = list(row[1][1:])
         positive_epochs = 0
         
+        positive_count = []
+        
         for i in range(1, len(data_list)):
-            pass 
-        # exit()
+            if data_list[i] - data_list[i-1] > 0:
+                positive_epochs += 1
+
+            if positive_epochs > 12:
+                p_coun.append(country_name)
+    
+    print(p_coun)
 
 
 if __name__ == "__main__":
