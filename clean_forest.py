@@ -1,8 +1,7 @@
-fp = open('deforest_data.csv', 'r')
-op = open('deforest_data_cl.csv', 'w+')
+fp = open('Metadata_Country_API_AG.LND.FRST.ZS_DS2_en_csv_v2_180602.csv', 'r')
+op = open('metadata_cl.csv', 'w+')
 
-lines = fp.read().split('\n')
-csv_lines = [line.split(',') for line in lines]
-
-for line in csv_lines:
-    op.write(','.join(line[0:2] + line[34:]) + '\n')
+import csv
+spamreader = csv.reader(fp, delimiter=',', quotechar='\"')
+for row in spamreader:
+    op.write(','.join([row[0],row[2],row[4]])+'\n')

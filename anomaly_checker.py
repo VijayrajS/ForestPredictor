@@ -38,6 +38,8 @@ def anomaly_func(data):
 
     print(p_coun)
     print(s_c_coun)
+    
+    print(row[0])
 
 if __name__ == "__main__":
     d = pd.read_csv('deforest_data.csv')
