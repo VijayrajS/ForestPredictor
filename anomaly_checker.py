@@ -1,5 +1,5 @@
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 def anomaly_func(data):
     # check for positive anomaly
@@ -15,7 +15,6 @@ def anomaly_func(data):
         
         sign = -1
 
-        positive_count = []
         f = 0
 
         for i in range(1, len(data_list)):
@@ -39,11 +38,26 @@ def anomaly_func(data):
     print(p_coun)
     print(s_c_coun)
     
-    print(row[0])
-
+    x_axis = list(data.columns[1:])
+    print(x_axis)
+    
+    for row in data.iterrows():
+        # if row[1][0] in p_coun:
+        if row[1][0] in s_c_coun:
+            dat = list(row[1][1:])
+            print(dat)
+            
+            
+            try:
+                plt.title(row[1][0])
+                plt.axes().set_ylim([0, 1.5*max(dat)])
+                plt.plot(x_axis, dat)
+                plt.show()
+            except:
+                continue
+    
 if __name__ == "__main__":
     d = pd.read_csv('deforest_data.csv')
-
     year_range = ["Country Name"] + [str(u) for u in range(1990, 2017)]
     d_years = d[year_range]
 
