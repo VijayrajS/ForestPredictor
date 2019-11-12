@@ -20,7 +20,7 @@ BFA,Low income,Burkina Faso
 BGD,Lower middle income,Bangladesh
 BGR,Upper middle income,Bulgaria
 BHR,High income,Bahrain
-BHS,High income,Bahamas, The
+BHS,High income,Bahamas
 BIH,Upper middle income,Bosnia and Herzegovina
 BLR,Upper middle income,Belarus
 BLZ,Upper middle income,Belize
@@ -40,8 +40,8 @@ CHL,High income,Chile
 CHN,Upper middle income,China
 CIV,Lower middle income,Côte d'Ivoire
 CMR,Lower middle income,Cameroon
-COD,Low income,Congo, Dem. Rep.
-COG,Lower middle income,Congo, Rep.
+COD,Low income,Congo
+COG,Lower middle income,Congo
 COL,Upper middle income,Colombia
 COM,Lower middle income,Comoros
 CPV,Lower middle income,Cabo Verde
@@ -64,7 +64,7 @@ EAS,,East Asia & Pacific
 ECA,,Europe & Central Asia (excluding high income)
 ECS,,Europe & Central Asia
 ECU,Upper middle income,Ecuador
-EGY,Lower middle income,Egypt, Arab Rep.
+EGY,Lower middle income,Egypt
 EMU,,Euro area
 ERI,Low income,Eritrea
 ESP,High income,Spain
@@ -76,14 +76,14 @@ FIN,High income,Finland
 FJI,Upper middle income,Fiji
 FRA,High income,France
 FRO,High income,Faroe Islands
-FSM,Lower middle income,Micronesia, Fed. Sts.
+FSM,Lower middle income,Micronesia
 GAB,Upper middle income,Gabon
 GBR,High income,United Kingdom
 GEO,Upper middle income,Georgia
 GHA,Lower middle income,Ghana
 GIB,High income,Gibraltar
 GIN,Low income,Guinea
-GMB,Low income,Gambia, The
+GMB,Low income,Gambia
 GNB,Low income,Guinea-Bissau
 GNQ,Upper middle income,Equatorial Guinea
 GRC,High income,Greece
@@ -93,7 +93,7 @@ GTM,Upper middle income,Guatemala
 GUM,High income,Guam
 GUY,Upper middle income,Guyana
 HIC,,High income
-HKG,High income,Hong Kong SAR, China
+HKG,High income,Hong Kong SAR
 HND,Lower middle income,Honduras
 HPC,,Heavily indebted poor countries (HIPC)
 HRV,High income,Croatia
@@ -108,7 +108,7 @@ IDX,,IDA only
 IMN,High income,Isle of Man
 IND,Lower middle income,India
 IRL,High income,Ireland
-IRN,Upper middle income,Iran, Islamic Rep.
+IRN,Upper middle income,Iran
 IRQ,Upper middle income,Iraq
 ISL,High income,Iceland
 ISR,High income,Israel
@@ -122,7 +122,7 @@ KGZ,Lower middle income,Kyrgyz Republic
 KHM,Lower middle income,Cambodia
 KIR,Lower middle income,Kiribati
 KNA,High income,St. Kitts and Nevis
-KOR,High income,Korea, Rep.
+KOR,High income,Korea
 KWT,High income,Kuwait
 LAC,,Latin America & Caribbean (excluding high income)
 LAO,Lower middle income,Lao PDR
@@ -142,7 +142,7 @@ LTE,,Late-demographic dividend
 LTU,High income,Lithuania
 LUX,High income,Luxembourg
 LVA,High income,Latvia
-MAC,High income,Macao SAR, China
+MAC,High income,Macao SAR
 MAF,High income,St. Martin (French part)
 MAR,Lower middle income,Morocco
 MCO,High income,Monaco
@@ -189,7 +189,7 @@ PNG,Lower middle income,Papua New Guinea
 POL,High income,Poland
 PRE,,Pre-demographic dividend
 PRI,High income,Puerto Rico
-PRK,Low income,Korea, Dem. People's Rep.
+PRK,Low income,Korea
 PRT,High income,Portugal
 PRY,Upper middle income,Paraguay
 PSE,Lower middle income,West Bank and Gaza
@@ -250,7 +250,7 @@ URY,High income,Uruguay
 USA,High income,United States
 UZB,Lower middle income,Uzbekistan
 VCT,Upper middle income,St. Vincent and the Grenadines
-VEN,Upper middle income,Venezuela, RB
+VEN,Upper middle income,Venezuela
 VGB,High income,British Virgin Islands
 VIR,High income,Virgin Islands (U.S.)
 VNM,Lower middle income,Vietnam
@@ -258,7 +258,7 @@ VUT,Lower middle income,Vanuatu
 WLD,,World
 WSM,Upper middle income,Samoa
 XKX,Upper middle income,Kosovo
-YEM,Low income,Yemen, Rep.
+YEM,Low income,Yemen
 ZAF,Upper middle income,South Africa
 ZMB,Lower middle income,Zambia
 ZWE,Lower middle income,Zimbabwe
