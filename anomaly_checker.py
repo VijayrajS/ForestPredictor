@@ -6,7 +6,6 @@ def anomaly_func(data):
 
     p_coun = []
     s_c_coun = []
-    print("Here")
     for row in data.iterrows():
         country_name = row[1][0]
         
@@ -39,14 +38,13 @@ def anomaly_func(data):
     print(s_c_coun)
     
     x_axis = list(data.columns[1:])
-    print(x_axis)
+    slope = ()
     
     for row in data.iterrows():
-        # if row[1][0] in p_coun:
-        if row[1][0] in s_c_coun:
+        if row[1][0] in p_coun:
+        # if row[1][0] in s_c_coun:
             dat = list(row[1][1:])
-            print(dat)
-            
+            print(dat[-1])
             
             try:
                 plt.title(row[1][0])
@@ -54,6 +52,7 @@ def anomaly_func(data):
                 plt.plot(x_axis, dat)
                 plt.show()
             except:
+                print(row[1][0])
                 continue
     
 if __name__ == "__main__":
