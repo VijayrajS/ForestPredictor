@@ -41,7 +41,7 @@ def anomaly_func(data):
     slope = ()
     
     for row in data.iterrows():
-        if row[1][0] == 'Kenya':
+        if row[1][0] in p_coun:
         # if row[1][0] in s_c_coun:
             dat = list(row[1][1:])
             print(dat[-1])
